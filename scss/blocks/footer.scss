@@ -15,6 +15,13 @@
     li {
       a {
         color: #fff;
+        &:hover {
+          color: $green;
+          svg {
+            fill: $green;
+            transition: 0.1s;
+          }
+        }
       }
       svg {
         max-width: 20px;
@@ -36,9 +43,13 @@
     margin-top: 12px;
     margin-left: 12px;
     fill: #fff;
+    transition: .3s;
     svg {
       width: 24px;
       height: 24px;
+    }
+    &:hover {
+      fill: $green;
     }
   }
 }

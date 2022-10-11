@@ -442,6 +442,15 @@ body {
 .footer__list li a {
   color: #fff;
 }
+.footer__list li a:hover {
+  color: #5FA465;
+}
+.footer__list li a:hover svg {
+  fill: #5FA465;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
 .footer__list li svg {
   max-width: 20px;
   max-height: 14px;
@@ -459,10 +468,16 @@ body {
   margin-top: 12px;
   margin-left: 12px;
   fill: #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .footer__item svg {
   width: 24px;
   height: 24px;
+}
+.footer__item:hover {
+  fill: #5FA465;
 }
 
 /* /footer */
