@@ -1,0 +1,38 @@
+/* header */
+.header { 
+  width: 100%;
+  position: absolute;
+  &__container {
+    display: flex;
+  }
+  &__lang {
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    .active {
+      color: $green;
+    }
+  }
+}
+
+// stiky menu
+#headerSticky {
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: showStyky 0.5s;
+  }
+}
+@keyframes showStyky {
+  0% {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0)
+  }
+}
+/* /header */

@@ -1,0 +1,30 @@
+extends core/base.pug
+
+block title 
+  title Навигаця по страницам
+
+block content
+
+  .page 
+
+    include core/header.pug
+
+    .content 
+
+      // welcome
+      .welcome
+        .wrapper 
+          .welcome__content 
+            a(href="#").welcome__logo 
+              img(src="img/logo.svg", alt="")
+            .welcome__title Непрерывный поток музыки
+            a(href="#").welcome__btn ВОЙТИ
+      // /welcome
+
+      // about
+      .about
+        .wrapper 
+
+      // /about
+
+    include core/footer.pug
