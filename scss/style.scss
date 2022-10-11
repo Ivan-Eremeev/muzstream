@@ -18,9 +18,9 @@ $break_sm: 768px;
 $break_xs: 500px;
 
 // Шрифты
-@include font-face("Inter", "../fonts/EastAP/inter-v12-latin_cyrillic-regular", normal, normal);
-@include font-face("Inter", "../fonts/EastAP/inter-v12-latin_cyrillic-500", 500, normal);
-@include font-face("Inter", "../fonts/EastAP/inter-v12-latin_cyrillic-700", bold, normal);
+@include font-face("Inter", "../fonts/inter-v12-latin_cyrillic-regular", normal, normal);
+@include font-face("Inter", "../fonts/inter-v12-latin_cyrillic-500", 500, normal);
+@include font-face("Inter", "../fonts/inter-v12-latin_cyrillic-700", bold, normal);
 
 // Цвета
 $green: #5FA465;

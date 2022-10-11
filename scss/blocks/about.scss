@@ -1,6 +1,68 @@
 /* about */
 .about { 
   flex-grow: 1;
+  padding: 85px 0;
   background: linear-gradient(to bottom, #64A44D -16.31%, #50A1A1 53.02%, #2F66C6 118.15%);
+  color: #fff;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__head {
+    @include col(5);
+  }
+  &__title {
+    max-width: 370px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+  }
+  &__lists {
+    @include col(6);
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list {
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    margin-top: -60px;
+    li {
+      display: flex;
+      // align-items: center;
+      margin-top: 60px;
+      svg {
+        flex-shrink: 0;
+        max-width: 31px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-top: 5px;
+        &.icon-note {
+          fill: #fff;
+        }
+        &.icon-microphone {
+          fill: #fff;
+        }
+        &.icon-people {
+          fill: #fff;
+        }
+        &.icon-new {
+          stroke: #fff;
+          fill: transparent;
+        }
+        &.icon-notes {
+          fill: #fff;
+        }
+        &.icon-devices {
+          stroke: #fff;
+          fill: transparent;
+        }
+      }
+      span {
+
+      }
+    }
+  }
 }
 /* /about */

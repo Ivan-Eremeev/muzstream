@@ -24,7 +24,36 @@ block content
       // about
       .about
         .wrapper 
-
+          .row 
+            .about__head 
+              .about__title Muzstream - это современный сервис потокового вещания
+            .about__lists 
+              ul.about__list 
+                li 
+                  svg(class="icon-note")
+                    use(xlink:href="img/sprite.svg#note")
+                  span 1000+ треков
+                li 
+                  svg(class="icon-microphone")
+                    use(xlink:href="img/sprite.svg#microphone")
+                  span 100+ исполнителей
+                li 
+                  svg(class="icon-people")
+                    use(xlink:href="img/sprite.svg#people")
+                  span поддержка <br>национальной <br>культуры
+              ul.about__list 
+                li 
+                  svg(class="icon-new")
+                    use(xlink:href="img/sprite.svg#new")
+                  span свежие хиты
+                li 
+                  svg(class="icon-notes")
+                    use(xlink:href="img/sprite.svg#notes")
+                  span персональные <br>плейлисты
+                li 
+                  svg(class="icon-devices")
+                    use(xlink:href="img/sprite.svg#devices")
+                  span слушай с любого <br>устройства
       // /about
 
     include core/footer.pug
