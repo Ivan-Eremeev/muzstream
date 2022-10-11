@@ -14,6 +14,12 @@ block content
       // welcome
       .welcome
         .wrapper 
+          .welcome__bg 
+            picture
+              source(media="(min-width: 991px)", srcset="img/welcome_bg.jpg, img/welcome_bg@2x.jpg 2x")
+              source(media="(min-width: 501px)", srcset="img/welcome_bg-md.jpg, img/welcome_bg-md@2x.jpg 2x")
+              source(media="(max-width: 500px)", srcset="img/welcome_bg-sm.jpg, img/welcome_bg-sm@2x.jpg 2x")
+              img(src="img/welcome_bg.jpg", alt="")
           .welcome__content 
             a(href="#").welcome__logo 
               img(src="img/logo.svg", alt="")
