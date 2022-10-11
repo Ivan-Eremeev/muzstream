@@ -239,6 +239,7 @@ body {
   width: 100%;
   padding: 10px 0;
   position: absolute;
+  z-index: 2;
 }
 .header__container {
   display: -webkit-box;
